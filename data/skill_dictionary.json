@@ -1,0 +1,20 @@
+{
+  "technical": {
+    "excel": ["excel", "ms excel", "advanced excel"],
+    "sql": ["sql", "mysql", "postgresql"],
+    "power bi": ["power bi", "bi tools"],
+    "tableau": ["tableau"]
+  },
+  "finance": {
+    "financial analysis": ["financial analysis", "financial modeling"],
+    "credit analysis": ["credit analysis", "credit risk"],
+    "risk assessment": ["risk assessment", "risk analysis"],
+    "ratio analysis": ["ratio analysis", "financial ratios"],
+    "forecasting": ["forecasting", "financial forecasting"]
+  },
+  "business": {
+    "communication": ["communication", "verbal communication"],
+    "reporting": ["reporting", "report writing"],
+    "decision making": ["decision making"]
+  }
+}

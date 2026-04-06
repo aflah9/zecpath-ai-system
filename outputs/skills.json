@@ -1,0 +1,22 @@
+{
+    "credit analysis": {
+        "category": "finance",
+        "confidence": 0.6
+    },
+    "excel": {
+        "category": "technical",
+        "confidence": 0.6
+    },
+    "financial analysis": {
+        "category": "finance",
+        "confidence": 0.6
+    },
+    "power bi": {
+        "category": "technical",
+        "confidence": 0.6
+    },
+    "sql": {
+        "category": "technical",
+        "confidence": 0.6
+    }
+}
