@@ -1,0 +1,12 @@
+John Doe
+
+Technical Skills
+Python
+Machine Learning
+SQL
+
+Professional Experience
+Data Analyst at ABC Company
+
+Education
+BSc Computer Science
