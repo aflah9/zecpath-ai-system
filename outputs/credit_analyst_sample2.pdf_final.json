@@ -1,0 +1,30 @@
+{
+    "basic_info": {
+        "name": "Michael Smith",
+        "skills": [
+            "credit risk analysis",
+            "financial analysis",
+            "excel"
+        ],
+        "companies": [],
+        "designations": [],
+        "experience_years": "4 years",
+        "education": "Master Degree"
+    },
+    "experience_analysis": {
+        "experiences": [
+            {
+                "role": "Senior Credit Analyst",
+                "company": "XYZ Financial Services",
+                "start_date": "2021",
+                "end_date": "Present",
+                "duration_months": 63,
+                "relevance_score": 1.0
+            }
+        ],
+        "total_experience": "5 years 3 months",
+        "gaps": [],
+        "overlaps": [],
+        "target_role": "Credit Analyst"
+    }
+}

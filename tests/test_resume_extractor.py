@@ -17,4 +17,5 @@ def test_resume_extractor():
             # ✅ basic checks
             assert isinstance(text, str)
             assert len(text) > 0
+            
     

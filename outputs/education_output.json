@@ -1,0 +1,63 @@
+[
+    {
+        "file": "credit_analyst1_sambele_1b.pdf",
+        "data": {
+            "education": [
+                {
+                    "degree": "Bachelor's Degree",
+                    "field": "Finance",
+                    "institution": "XYZ University",
+                    "year": "2021"
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Credit Risk",
+                    "category": "Risk"
+                },
+                {
+                    "name": "Financial Modeling",
+                    "category": "Finance"
+                }
+            ]
+        }
+    },
+    {
+        "file": "credit_analyst_sample1.pdf",
+        "data": {
+            "education": [
+                {
+                    "degree": "Bachelor's Degree",
+                    "field": "Finance",
+                    "institution": "XYZ University",
+                    "year": "2021"
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Financial Modeling",
+                    "category": "Finance"
+                }
+            ]
+        }
+    },
+    {
+        "file": "credit_analyst_sample2.pdf",
+        "data": {
+            "education": [
+                {
+                    "degree": "Master's Degree",
+                    "field": "Finance",
+                    "institution": "ABC University",
+                    "year": "2020"
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Credit Risk",
+                    "category": "Risk"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "resume": {
+            "basic_info": {
+                "name": "Michael Smith",
+                "skills": [
+                    "credit risk analysis",
+                    "financial analysis",
+                    "excel"
+                ],
+                "companies": [],
+                "designations": [],
+                "experience_years": "4 years",
+                "education": "Master Degree"
+            },
+            "experience_analysis": {
+                "experiences": [
+                    {
+                        "role": "Senior Credit Analyst",
+                        "company": "XYZ Financial Services",
+                        "start_date": "2021",
+                        "end_date": "Present",
+                        "duration_months": 63,
+                        "relevance_score": 1.0
+                    }
+                ],
+                "total_experience": "5 years 3 months",
+                "gaps": [],
+                "overlaps": [],
+                "target_role": "Credit Analyst"
+            },
+            "skills": [
+                "financial analysis",
+                "credit risk analysis",
+                "excel"
+            ],
+            "education": "master degree",
+            "experience": [
+                {
+                    "role": "senior credit analyst",
+                    "company": "xyz financial services"
+                }
+            ]
+        },
+        "final_score": 64.93,
+        "bias_flags": {
+            "keyword_bias": false,
+            "experience_bias": false,
+            "education_bias": false
+        },
+        "status": "SHORTLISTED"
+    },
+    {
+        "resume": {
+            "basic_info": {
+                "name": "John Doe",
+                "skills": [
+                    "financial analysis"
+                ],
+                "companies": [],
+                "designations": [],
+                "experience_years": "3 years",
+                "education": "Bachelor Degree"
+            },
+            "experience_analysis": {
+                "experiences": [
+                    {
+                        "role": "Credit Analyst",
+                        "company": "ABC Bank",
+                        "start_date": "2022",
+                        "end_date": "Present",
+                        "duration_months": 51,
+                        "relevance_score": 1.0
+                    }
+                ],
+                "total_experience": "4 years 3 months",
+                "gaps": [],
+                "overlaps": [],
+                "target_role": "Credit Analyst"
+            },
+            "skills": [
+                "financial analysis"
+            ],
+            "education": "bachelor degree",
+            "experience": [
+                {
+                    "role": "credit analyst",
+                    "company": "abc bank"
+                }
+            ]
+        },
+        "final_score": 50.85,
+        "bias_flags": {
+            "keyword_bias": false,
+            "experience_bias": false,
+            "education_bias": false
+        },
+        "status": "REVIEW"
+    },
+    {
+        "resume": {
+            "basic_info": {
+                "name": "John Doe",
+                "skills": [
+                    "excel"
+                ],
+                "companies": [],
+                "designations": [],
+                "experience_years": "3 years",
+                "education": "Bachelor Degree"
+            },
+            "experience_analysis": {
+                "experiences": [
+                    {
+                        "role": "Credit Analyst",
+                        "company": "ABC Bank",
+                        "start_date": "2022",
+                        "end_date": "Present",
+                        "duration_months": 51,
+                        "relevance_score": 1.0
+                    }
+                ],
+                "total_experience": "4 years 3 months",
+                "gaps": [],
+                "overlaps": [],
+                "target_role": "Credit Analyst"
+            },
+            "skills": [
+                "excel"
+            ],
+            "education": "bachelor degree",
+            "experience": [
+                {
+                    "role": "credit analyst",
+                    "company": "abc bank"
+                }
+            ]
+        },
+        "final_score": 42.36,
+        "bias_flags": {
+            "keyword_bias": false,
+            "experience_bias": false,
+            "education_bias": false
+        },
+        "status": "REJECTED"
+    }
+]

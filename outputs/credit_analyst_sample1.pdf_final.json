@@ -1,0 +1,28 @@
+{
+    "basic_info": {
+        "name": "John Doe",
+        "skills": [
+            "financial analysis"
+        ],
+        "companies": [],
+        "designations": [],
+        "experience_years": "3 years",
+        "education": "Bachelor Degree"
+    },
+    "experience_analysis": {
+        "experiences": [
+            {
+                "role": "Credit Analyst",
+                "company": "ABC Bank",
+                "start_date": "2022",
+                "end_date": "Present",
+                "duration_months": 51,
+                "relevance_score": 1.0
+            }
+        ],
+        "total_experience": "4 years 3 months",
+        "gaps": [],
+        "overlaps": [],
+        "target_role": "Credit Analyst"
+    }
+}

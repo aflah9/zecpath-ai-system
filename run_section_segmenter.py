@@ -17,9 +17,12 @@ for file in os.listdir(SAMPLES_FOLDER):
         print("Processing:", file)
         print("============================")
 
-        # 🔥 Use PDF extractor instead of open()
+        # 🔥 Use PDF extractor inste
+        # ad of open()
         extractor = ResumeTextExtractor()
         text = extractor.extract_text(path)
+
+        print("\nRAW TEXT:\n", text[:500])
 
         sections = segment_sections(text)
 

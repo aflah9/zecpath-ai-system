@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Michael Smith (credit_analyst_sample2.pdf_final.json)",
+        "score": 64.77,
+        "status": "Review",
+        "breakdown": {
+            "skills": 0.5,
+            "experience": 0.7,
+            "education": 0.7,
+            "semantic": 0.8385787606239319
+        },
+        "explanation": {
+            "Skill Match": "50.0%",
+            "Experience Relevance": "70.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "83.9%"
+        }
+    },
+    {
+        "name": "John Doe (credit_analyst_sample1.pdf_final.json)",
+        "score": 51.12,
+        "status": "Review",
+        "breakdown": {
+            "skills": 0.16666666666666666,
+            "experience": 0.7,
+            "education": 0.7,
+            "semantic": 0.8227509260177612
+        },
+        "explanation": {
+            "Skill Match": "16.7%",
+            "Experience Relevance": "70.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "82.3%"
+        }
+    },
+    {
+        "name": "John Doe (credit_analyst1_sambele_1b.pdf_final.json)",
+        "score": 44.35,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.7,
+            "education": 0.7,
+            "semantic": 0.8172788619995117
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "70.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "81.7%"
+        }
+    }
+]

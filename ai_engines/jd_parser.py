@@ -48,7 +48,7 @@ def extract_role(text):
     return "unknown"
 
 
-def extract_experience(text):
+def extract_experience_year(text):
     match = re.search(r'(\d+[-–]?\d*)\s+years', text)
     if match:
         return match.group()
@@ -64,6 +64,52 @@ def extract_education(text):
         return "cfa level 1"
     return "not specified"
 
+def extract_experience_description(text):
+    keywords = [
+        "analy", "evalu", "review", "prepare",
+        "conduct", "monitor", "assess", "assist"
+    ]
+
+    sentences = re.split(r'[.\n•\-]', text)
+    selected = []
+
+    for sentence in sentences:
+        sentence = sentence.strip()
+
+        if len(sentence) < 25:
+            continue
+
+        for word in keywords:
+            if word in sentence.lower():
+                selected.append(sentence.capitalize())
+                break
+
+    return ". ".join(selected[:4]) + "."
+def extract_projects(text):
+    keywords = [
+        "report", "analysis", "model", "dashboard",
+        "prepare", "conduct", "evaluate"
+    ]
+
+    sentences = re.split(r'[.\n•\-]', text)
+    selected = []
+
+    for sentence in sentences:
+        sentence = sentence.strip()
+
+        if len(sentence) < 25:
+            continue
+
+        # Avoid "assist" to reduce overlap
+        if "assist" in sentence.lower():
+            continue
+
+        for word in keywords:
+            if word in sentence.lower():
+                selected.append(sentence)
+                break
+
+    return ". ".join(selected[:3])
 
 def parse_job_description(text):
 
@@ -72,8 +118,10 @@ def parse_job_description(text):
     job_data = {
         "role": extract_role(text),
         "skills": extract_skills(text),
-        "experience": extract_experience(text),
-        "education": extract_education(text)
+        "experience_year": extract_experience_year(text),
+        "education": extract_education(text),
+        "experience":extract_experience_description(text),
+        "projects":extract_projects(text)
     }
 
     return job_data
