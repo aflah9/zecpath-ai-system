@@ -1,5 +1,5 @@
 # ai_engines/ats_scorer.py
-
+from observability.logging import log_event
 def skill_match_score(resume_skills, jd_skills):
     if not jd_skills:
         return 0
@@ -103,10 +103,26 @@ def ats_score_engine(resume_data, jd_data, nlp, role="default"):
     weights = WEIGHTS.get(role, WEIGHTS["default"])
 
     # Calculate scores
-    skill_score = skill_match_score(resume_data["skills"], jd_data["skills"])
-    exp_score = experience_score(resume_data["experience"], jd_data.get("role", ""))
-    edu_score = education_score(resume_data["education"], jd_data["education"])
-    sem_score = semantic_score(resume_data["text"], jd_data["text"], nlp)
+    skill_score = skill_match_score(
+        resume_data["skills"],
+        jd_data["skills"]
+    )
+
+    exp_score = experience_score(
+        resume_data.get("experience", ""),
+        jd_data.get("role", "")
+    )
+
+    edu_score = education_score(
+        resume_data.get("education", ""),
+        jd_data.get("education", "")
+    )
+
+    sem_score = semantic_score(
+        resume_data.get("text", ""),
+        jd_data.get("text", ""),
+        nlp
+    )
 
     scores = {
         "skills": safe_score(skill_score),
@@ -117,6 +133,23 @@ def ats_score_engine(resume_data, jd_data, nlp, role="default"):
 
     final_score = calculate_final_score(scores, weights)
     explanation = generate_explanation(scores)
+
+    # -----------------------------
+    # Observability Logging
+    # -----------------------------
+    log = log_event(
+        service="ATS Scorer",
+        event_type="score_generated",
+        data={
+            "candidate_name": resume_data.get("name", "Unknown"),
+            "role": role,
+            "final_score": round(final_score * 100, 2),
+            "breakdown": scores
+        }
+    )
+
+    # Optional: Print log for debugging/demo
+    print(log)
 
     return {
         "final_score": round(final_score * 100, 2),

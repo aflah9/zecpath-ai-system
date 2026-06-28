@@ -1,147 +1,435 @@
 [
     {
-        "resume": {
-            "basic_info": {
-                "name": "Michael Smith",
-                "skills": [
-                    "credit risk analysis",
-                    "financial analysis",
-                    "excel"
-                ],
-                "companies": [],
-                "designations": [],
-                "experience_years": "4 years",
-                "education": "Master Degree"
-            },
-            "experience_analysis": {
-                "experiences": [
-                    {
-                        "role": "Senior Credit Analyst",
-                        "company": "XYZ Financial Services",
-                        "start_date": "2021",
-                        "end_date": "Present",
-                        "duration_months": 63,
-                        "relevance_score": 1.0
-                    }
-                ],
-                "total_experience": "5 years 3 months",
-                "gaps": [],
-                "overlaps": [],
-                "target_role": "Credit Analyst"
-            },
-            "skills": [
+        "file": "credit_analyst1_sambele_1b.pdf",
+        "skills": [
+            "reporting",
+            "excel",
+            "power bi",
+            "risk assessment",
+            "financial analysis",
+            "sql",
+            "credit analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel",
+                "sql",
+                "power bi"
+            ],
+            "finance": [
                 "financial analysis",
-                "credit risk analysis",
-                "excel"
+                "credit analysis",
+                "risk assessment"
             ],
-            "education": "master degree",
-            "experience": [
-                {
-                    "role": "senior credit analyst",
-                    "company": "xyz financial services"
-                }
+            "business": [
+                "reporting"
             ]
         },
-        "final_score": 64.93,
-        "bias_flags": {
-            "keyword_bias": false,
-            "experience_bias": false,
-            "education_bias": false
-        },
-        "status": "SHORTLISTED"
+        "experience": 3,
+        "score": 66.67
     },
     {
-        "resume": {
-            "basic_info": {
-                "name": "John Doe",
-                "skills": [
-                    "financial analysis"
-                ],
-                "companies": [],
-                "designations": [],
-                "experience_years": "3 years",
-                "education": "Bachelor Degree"
-            },
-            "experience_analysis": {
-                "experiences": [
-                    {
-                        "role": "Credit Analyst",
-                        "company": "ABC Bank",
-                        "start_date": "2022",
-                        "end_date": "Present",
-                        "duration_months": 51,
-                        "relevance_score": 1.0
-                    }
-                ],
-                "total_experience": "4 years 3 months",
-                "gaps": [],
-                "overlaps": [],
-                "target_role": "Credit Analyst"
-            },
-            "skills": [
-                "financial analysis"
+        "file": "credit_analyst_sample2.pdf",
+        "skills": [
+            "reporting",
+            "excel",
+            "power bi",
+            "risk assessment",
+            "financial analysis",
+            "sql",
+            "credit analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel",
+                "sql",
+                "power bi"
             ],
-            "education": "bachelor degree",
-            "experience": [
-                {
-                    "role": "credit analyst",
-                    "company": "abc bank"
-                }
+            "finance": [
+                "financial analysis",
+                "credit analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "reporting"
             ]
         },
-        "final_score": 50.85,
-        "bias_flags": {
-            "keyword_bias": false,
-            "experience_bias": false,
-            "education_bias": false
-        },
-        "status": "REVIEW"
+        "experience": 4,
+        "score": 66.67
     },
     {
-        "resume": {
-            "basic_info": {
-                "name": "John Doe",
-                "skills": [
-                    "excel"
-                ],
-                "companies": [],
-                "designations": [],
-                "experience_years": "3 years",
-                "education": "Bachelor Degree"
-            },
-            "experience_analysis": {
-                "experiences": [
-                    {
-                        "role": "Credit Analyst",
-                        "company": "ABC Bank",
-                        "start_date": "2022",
-                        "end_date": "Present",
-                        "duration_months": 51,
-                        "relevance_score": 1.0
-                    }
-                ],
-                "total_experience": "4 years 3 months",
-                "gaps": [],
-                "overlaps": [],
-                "target_role": "Credit Analyst"
-            },
-            "skills": [
+        "file": "credit_analyst_sample1.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
                 "excel"
             ],
-            "education": "bachelor degree",
-            "experience": [
-                {
-                    "role": "credit analyst",
-                    "company": "abc bank"
-                }
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
             ]
         },
-        "final_score": 42.36,
-        "bias_flags": {
-            "keyword_bias": false,
-            "experience_bias": false,
-            "education_bias": false
+        "experience": 3,
+        "score": 63.33
+    },
+    {
+        "file": "credit_analyst_sample12.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel"
+            ],
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
+            ]
         },
-        "status": "REJECTED"
+        "experience": 3,
+        "score": 63.33
+    },
+    {
+        "file": "credit_analyst_sample7.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel"
+            ],
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
+            ]
+        },
+        "experience": 4,
+        "score": 63.33
+    },
+    {
+        "file": "credit_analyst_sample8.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel"
+            ],
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
+            ]
+        },
+        "experience": 5,
+        "score": 63.33
+    },
+    {
+        "file": "credit_analyst_sample9.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel"
+            ],
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
+            ]
+        },
+        "experience": 6,
+        "score": 63.33
+    },
+    {
+        "file": "credit_analyst_sample19.pdf",
+        "skills": [
+            "reporting",
+            "ratio analysis",
+            "sql"
+        ],
+        "categories": {
+            "technical": [
+                "sql"
+            ],
+            "finance": [
+                "ratio analysis"
+            ],
+            "business": [
+                "reporting"
+            ]
+        },
+        "experience": 4,
+        "score": 60.0
+    },
+    {
+        "file": "credit_analyst_sample20.pdf",
+        "skills": [
+            "ratio analysis",
+            "power bi",
+            "sql"
+        ],
+        "categories": {
+            "technical": [
+                "sql",
+                "power bi"
+            ],
+            "finance": [
+                "ratio analysis"
+            ]
+        },
+        "experience": 5,
+        "score": 56.67
+    },
+    {
+        "file": "credit_analyst_sample22.pdf",
+        "skills": [
+            "reporting",
+            "ratio analysis",
+            "power bi"
+        ],
+        "categories": {
+            "technical": [
+                "power bi"
+            ],
+            "finance": [
+                "ratio analysis"
+            ],
+            "business": [
+                "reporting"
+            ]
+        },
+        "experience": 6,
+        "score": 56.67
+    },
+    {
+        "file": "credit_analyst_sample11.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel"
+            ],
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
+            ]
+        },
+        "experience": 2,
+        "score": 53.33
+    },
+    {
+        "file": "credit_analyst_sample5.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel"
+            ],
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
+            ]
+        },
+        "experience": 2,
+        "score": 53.33
+    },
+    {
+        "file": "credit_analyst_sample17.pdf",
+        "skills": [
+            "ratio analysis",
+            "sql"
+        ],
+        "categories": {
+            "technical": [
+                "sql"
+            ],
+            "finance": [
+                "ratio analysis"
+            ]
+        },
+        "experience": 5,
+        "score": 50.0
+    },
+    {
+        "file": "credit_analyst_sample21.pdf",
+        "skills": [
+            "ratio analysis",
+            "sql"
+        ],
+        "categories": {
+            "technical": [
+                "sql"
+            ],
+            "finance": [
+                "ratio analysis"
+            ]
+        },
+        "experience": 5,
+        "score": 50.0
+    },
+    {
+        "file": "credit_analyst_sample18.pdf",
+        "skills": [
+            "ratio analysis",
+            "decision making"
+        ],
+        "categories": {
+            "finance": [
+                "ratio analysis"
+            ],
+            "business": [
+                "decision making"
+            ]
+        },
+        "experience": 4,
+        "score": 46.67
+    },
+    {
+        "file": "credit_analyst_sample10.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel"
+            ],
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
+            ]
+        },
+        "experience": 1,
+        "score": 43.33
+    },
+    {
+        "file": "credit_analyst_sample4.pdf",
+        "skills": [
+            "excel",
+            "risk assessment",
+            "communication",
+            "financial analysis"
+        ],
+        "categories": {
+            "technical": [
+                "excel"
+            ],
+            "finance": [
+                "financial analysis",
+                "risk assessment"
+            ],
+            "business": [
+                "communication"
+            ]
+        },
+        "experience": 1,
+        "score": 43.33
+    },
+    {
+        "file": "credit_analyst_sample15.pdf",
+        "skills": [
+            "ratio analysis"
+        ],
+        "categories": {
+            "finance": [
+                "ratio analysis"
+            ]
+        },
+        "experience": 5,
+        "score": 40.0
+    },
+    {
+        "file": "credit_analyst_sample16.pdf",
+        "skills": [
+            "ratio analysis"
+        ],
+        "categories": {
+            "finance": [
+                "ratio analysis"
+            ]
+        },
+        "experience": 2,
+        "score": 30.0
+    },
+    {
+        "file": "credit_analyst_sample14 (1).pdf",
+        "skills": [
+            "ratio analysis",
+            "power bi"
+        ],
+        "categories": {
+            "technical": [
+                "power bi"
+            ],
+            "finance": [
+                "ratio analysis"
+            ]
+        },
+        "experience": 1,
+        "score": 26.67
+    },
+    {
+        "file": "credit_analyst_sample23.pdf",
+        "skills": [
+            "ratio analysis"
+        ],
+        "categories": {
+            "finance": [
+                "ratio analysis"
+            ]
+        },
+        "experience": 1,
+        "score": 20.0
     }
 ]

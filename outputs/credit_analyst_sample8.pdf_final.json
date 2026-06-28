@@ -1,0 +1,22 @@
+{
+    "basic_info": {
+        "name": "Sneha Iyer",
+        "skills": [
+            "financial analysis",
+            "data analysis"
+        ],
+        "companies": [],
+        "designations": [
+            "Credit Analyst"
+        ],
+        "experience_years": "5 years",
+        "education": "Bachelor Degree"
+    },
+    "experience_analysis": {
+        "experiences": [],
+        "total_experience": "0 years 0 months",
+        "gaps": [],
+        "overlaps": [],
+        "target_role": "Credit Analyst"
+    }
+}

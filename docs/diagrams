@@ -1,0 +1,19 @@
+. architecture.txt
+
+User
+ ↓
+API Layer
+ ↓
+AI Engines
+ ↓
+Decision Engine
+ ↓
+Report Generator
+
+2. workflow.txt
+
+Resume → ATS → Screening → Interview → Technical → Integrity → Decision
+
+3. data_flow.txt
+
+PDF → JSON → Scores → Final Decision

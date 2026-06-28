@@ -1,0 +1,21 @@
+{
+    "file": "credit_analyst_sample19.pdf",
+    "skills": [
+        "reporting",
+        "ratio analysis",
+        "sql"
+    ],
+    "categories": {
+        "technical": [
+            "sql"
+        ],
+        "finance": [
+            "ratio analysis"
+        ],
+        "business": [
+            "reporting"
+        ]
+    },
+    "experience": 4,
+    "score": 60.0
+}

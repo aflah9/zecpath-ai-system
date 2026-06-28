@@ -1,15 +1,15 @@
 {
-    "final_score": 64.77,
+    "final_score": 34.26,
     "breakdown": {
-        "skills": 0.5,
-        "experience": 0.7,
+        "skills": 0.23076923076923078,
+        "experience": 0.0,
         "education": 0.7,
-        "semantic": 0.8385787606239319
+        "semantic": 0.9016454815864563
     },
     "explanation": {
-        "Skill Match": "50.0%",
-        "Experience Relevance": "70.0%",
+        "Skill Match": "23.1%",
+        "Experience Relevance": "0.0%",
         "Education Alignment": "70.0%",
-        "Semantic Similarity": "83.9%"
+        "Semantic Similarity": "90.2%"
     }
 }

@@ -1,0 +1,7 @@
+from security.encryption import encrypt_data, decrypt_data
+
+encrypted = encrypt_data("Candidate Transcript")
+
+print(encrypted)
+
+print(decrypt_data(encrypted))

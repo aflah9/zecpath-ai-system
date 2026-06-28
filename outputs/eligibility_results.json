@@ -1,0 +1,189 @@
+[
+    {
+        "file": "credit_analyst1_sambele_1b.pdf",
+        "score": 66.67,
+        "experience": 3,
+        "status": "Eligible",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample2.pdf",
+        "score": 66.67,
+        "experience": 4,
+        "status": "Eligible",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample1.pdf",
+        "score": 63.33,
+        "experience": 3,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample12.pdf",
+        "score": 63.33,
+        "experience": 3,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample7.pdf",
+        "score": 63.33,
+        "experience": 4,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample8.pdf",
+        "score": 63.33,
+        "experience": 5,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample9.pdf",
+        "score": 63.33,
+        "experience": 6,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample19.pdf",
+        "score": 60.0,
+        "experience": 4,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample20.pdf",
+        "score": 56.67,
+        "experience": 5,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample22.pdf",
+        "score": 56.67,
+        "experience": 6,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample11.pdf",
+        "score": 53.33,
+        "experience": 2,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample5.pdf",
+        "score": 53.33,
+        "experience": 2,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample17.pdf",
+        "score": 50.0,
+        "experience": 5,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample21.pdf",
+        "score": 50.0,
+        "experience": 5,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample18.pdf",
+        "score": 46.67,
+        "experience": 4,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample10.pdf",
+        "score": 43.33,
+        "experience": 1,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample4.pdf",
+        "score": 43.33,
+        "experience": 1,
+        "status": "Rejected",
+        "missing_skills": []
+    },
+    {
+        "file": "credit_analyst_sample15.pdf",
+        "score": 40.0,
+        "experience": 5,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample16.pdf",
+        "score": 30.0,
+        "experience": 2,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample14 (1).pdf",
+        "score": 26.67,
+        "experience": 1,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    },
+    {
+        "file": "credit_analyst_sample23.pdf",
+        "score": 20.0,
+        "experience": 1,
+        "status": "Rejected",
+        "missing_skills": [
+            "excel",
+            "financial analysis",
+            "risk assessment"
+        ]
+    }
+]

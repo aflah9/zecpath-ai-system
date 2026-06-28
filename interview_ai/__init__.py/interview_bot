@@ -1,3 +1,0 @@
-class InterviewAI:
-    def schedule_interview(self, candidate):
-        return "Interview Scheduled"

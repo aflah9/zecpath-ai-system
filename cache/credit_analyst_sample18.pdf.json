@@ -1,0 +1,17 @@
+{
+    "file": "credit_analyst_sample18.pdf",
+    "skills": [
+        "ratio analysis",
+        "decision making"
+    ],
+    "categories": {
+        "finance": [
+            "ratio analysis"
+        ],
+        "business": [
+            "decision making"
+        ]
+    },
+    "experience": 4,
+    "score": 46.67
+}

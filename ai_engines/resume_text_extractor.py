@@ -15,7 +15,14 @@ class ResumeTextExtractor:
         else:
             raise ValueError("Unsupported file format")
 
+        print("===== RAW TEXT =====")
+        print(raw_text[:1000])      # first 1000 characters
+
         cleaned_text = clean_text(raw_text)
+
+        print("===== CLEANED TEXT =====")
+        print(cleaned_text[:1000])
+
         return cleaned_text
 
     def _read_pdf(self, file_path):

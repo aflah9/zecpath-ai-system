@@ -1,6 +1,6 @@
 {
-    "credit analysis": {
-        "category": "finance",
+    "communication": {
+        "category": "business",
         "confidence": 0.6
     },
     "excel": {
@@ -11,12 +11,8 @@
         "category": "finance",
         "confidence": 0.6
     },
-    "power bi": {
-        "category": "technical",
-        "confidence": 0.6
-    },
-    "sql": {
-        "category": "technical",
+    "risk assessment": {
+        "category": "finance",
         "confidence": 0.6
     }
 }

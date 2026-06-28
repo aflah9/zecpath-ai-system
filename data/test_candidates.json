@@ -1,0 +1,12 @@
+[
+    {
+        "candidate_id": "C101",
+        "answer": "I worked as backend developer for 3 years",
+        "human_decision": "Pass"
+    },
+    {
+        "candidate_id": "C102",
+        "answer": "maybe little bit coding",
+        "human_decision": "Reject"
+    }
+]

@@ -15,6 +15,6 @@ result = match_resume_to_jd(resume, jd)
 with open("outputs/semantic_results.json", "w") as f:
     json.dump(result, f, indent=4)
 
-print("✅ RESULT:")
+print("RESULT:")
 print(result)
-print("✅ Saved to outputs/semantic_results.json")
+print(" Saved to outputs/semantic_results.json")

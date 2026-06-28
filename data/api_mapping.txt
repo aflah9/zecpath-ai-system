@@ -1,0 +1,65 @@
+               Frontend
+
+                   │
+
+                   ▼
+
+             Backend API
+
+                   │
+
+──────────────────────────────────────
+
+Resume API
+
+/ resume / parse
+
+──────────────────────────────────────
+
+ATS API
+
+/ ats / score
+
+──────────────────────────────────────
+
+Screening API
+
+/ screening / run
+
+──────────────────────────────────────
+
+Interview API
+
+/ interview / run
+
+──────────────────────────────────────
+
+Technical API
+
+/ technical / run
+
+──────────────────────────────────────
+
+Machine Test API
+
+/ machine / evaluate
+
+──────────────────────────────────────
+
+Decision API
+
+/ decision / final
+
+──────────────────────────────────────
+
+                   │
+
+                   ▼
+
+            Database
+
+                   │
+
+                   ▼
+
+              Storage

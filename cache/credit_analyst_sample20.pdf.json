@@ -1,0 +1,19 @@
+{
+    "file": "credit_analyst_sample20.pdf",
+    "skills": [
+        "ratio analysis",
+        "power bi",
+        "sql"
+    ],
+    "categories": {
+        "technical": [
+            "sql",
+            "power bi"
+        ],
+        "finance": [
+            "ratio analysis"
+        ]
+    },
+    "experience": 5,
+    "score": 56.67
+}

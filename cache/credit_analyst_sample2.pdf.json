@@ -1,0 +1,29 @@
+{
+    "file": "credit_analyst_sample2.pdf",
+    "skills": [
+        "reporting",
+        "excel",
+        "power bi",
+        "risk assessment",
+        "financial analysis",
+        "sql",
+        "credit analysis"
+    ],
+    "categories": {
+        "technical": [
+            "excel",
+            "sql",
+            "power bi"
+        ],
+        "finance": [
+            "financial analysis",
+            "credit analysis",
+            "risk assessment"
+        ],
+        "business": [
+            "reporting"
+        ]
+    },
+    "experience": 4,
+    "score": 66.67
+}

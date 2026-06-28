@@ -1,0 +1,23 @@
+{
+    "file": "credit_analyst_sample11.pdf",
+    "skills": [
+        "excel",
+        "risk assessment",
+        "communication",
+        "financial analysis"
+    ],
+    "categories": {
+        "technical": [
+            "excel"
+        ],
+        "finance": [
+            "financial analysis",
+            "risk assessment"
+        ],
+        "business": [
+            "communication"
+        ]
+    },
+    "experience": 2,
+    "score": 53.33
+}

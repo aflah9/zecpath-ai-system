@@ -1,0 +1,103 @@
+{
+  "experience_levels": {
+    "0-2": {
+      "difficulty": "basic",
+      "question_types": [
+        "basic_reddit_usage",
+        "social_media_fundamentals",
+        "basic_data_interpretation"
+      ]
+    },
+    "3-5": {
+      "difficulty": "intermediate",
+      "question_types": [
+        "trend_analysis",
+        "sentiment_analysis",
+        "community_behavior",
+        "data_insights"
+      ]
+    },
+    "5+": {
+      "difficulty": "advanced",
+      "question_types": [
+        "large_scale_social_analysis",
+        "reddit_data_architecture",
+        "api_data_pipeline_design",
+        "moderation_system_design",
+        "predictive_trend_modeling"
+      ]
+    }
+  },
+
+  "role_mapping": {
+    "reddit_analyst": [
+      "Reddit API",
+      "Sentiment Analysis",
+      "Python",
+      "Data Analysis",
+      "Community Behavior",
+      "Social Listening",
+      "Trend Detection",
+      "SQL",
+      "Dashboarding"
+    ],
+
+    "social_media_analyst": [
+      "Social Media Analytics",
+      "Engagement Metrics",
+      "Content Performance",
+      "Audience Insights",
+      "Reporting Tools"
+    ],
+
+    "data_analyst": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Data Visualization",
+      "Statistics",
+      "Reporting"
+    ]
+  },
+
+  "difficulty_progression": {
+    "basic": {
+      "focus": [
+        "reddit basics",
+        "platform understanding",
+        "simple analytics"
+      ],
+      "sample_questions": [
+        "What is Reddit and how does it work?",
+        "What is a subreddit?",
+        "What does upvote/downvote mean?"
+      ]
+    },
+
+    "intermediate": {
+      "focus": [
+        "trend detection",
+        "sentiment analysis",
+        "data interpretation"
+      ],
+      "sample_questions": [
+        "How would you detect trending topics on Reddit?",
+        "How do you analyze sentiment from comments?",
+        "How do you identify viral posts?"
+      ]
+    },
+
+    "advanced": {
+      "focus": [
+        "system design",
+        "scalable data pipelines",
+        "real-time analytics"
+      ],
+      "sample_questions": [
+        "Design a Reddit trend tracking system",
+        "How would you build a real-time sentiment dashboard?",
+        "Design a system to detect misinformation on Reddit at scale"
+      ]
+    }
+  }
+}

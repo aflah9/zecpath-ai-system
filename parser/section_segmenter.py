@@ -40,7 +40,7 @@ def segment_sections(text):
 
     # 🔥 Add line breaks before headings
     text = re.sub(
-        r'\b(SKILLS|EXPERIENCE|EDUCATION|PROFESSIONAL SUMMARY|PROFILE SUMMARY|SUMMARY|PROFILE|WORK EXPERIENCE|KEY SKILLS|CORE SKILLS|TECHNICAL SKILLS|KEY COMPETENCIES|TOOLS|TOOLS TECHNOLOGIES|ACADEMIC BACKGROUND)\b',
+        r'\b(skills|experience|education|professional summary|profile summary|summary|profile|work experience|key skills|core skills|technical skills|key competencies|tools|tools technologies|academic background)\b',
         lambda x: "\n" + x.group(0) + "\n",
         text
     )
@@ -94,6 +94,11 @@ def segment_sections(text):
         else:
             sections[current_section] += line + "\n"
 
+
+    print("\n===== SECTION OUTPUT =====")
+    for key, value in sections.items():
+        print(f"\n[{key}]")
+        print(value)
 
     return sections
 

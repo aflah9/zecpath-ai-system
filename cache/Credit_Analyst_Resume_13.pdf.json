@@ -1,0 +1,23 @@
+{
+    "file": "Credit_Analyst_Resume_13.pdf",
+    "skills": [
+        "risk assessment",
+        "financial analysis",
+        "credit analysis",
+        "sql",
+        "excel"
+    ],
+    "categories": {
+        "technical": [
+            "excel",
+            "sql"
+        ],
+        "finance": [
+            "financial analysis",
+            "credit analysis",
+            "risk assessment"
+        ]
+    },
+    "experience": 0,
+    "score": 33.33
+}

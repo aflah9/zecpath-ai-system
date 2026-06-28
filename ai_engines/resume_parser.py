@@ -9,6 +9,7 @@ class ResumeParser:
     def __init__(self, text):
         self.text = text.lower()
         self.sections = segment_sections(text)
+        print(self.sections)
 
     def extract_name(self):
         lines = self.text.split("\n")
@@ -16,25 +17,33 @@ class ResumeParser:
         for line in lines:
             line = line.strip()
 
-            if line and len(line.split()) <= 3 and not any(char.isdigit() for char in line):
+            if (
+                line
+                and "email" not in line
+                and "phone" not in line
+                and len(line.split()) in [2, 3]
+            ):
                 return line.title()
 
         return "Not Found"
 
     def extract_skills(self):
         skills_list = [
+            "financial analysis",
+            "risk assessment",
+            "credit scoring models",
+            "excel",
+            "financial tools",
+            "data analysis",
+            "communication skills",
             "risk management",
             "underwriting",
-            "negotiation",
             "loan servicing",
             "research",
             "python",
-            "hadoop",
             "mysql",
-            "credit risk analysis",
-            "financial analysis",
-            "excel"
-        ]
+            "hadoop"
+]
 
         skills_text = self.sections.get("skills", "").lower()
 
@@ -45,21 +54,35 @@ class ResumeParser:
 
         return found
 
+    import re
+
     def extract_experience(self):
         companies = []
         designations = []
 
-        exp_text = self.sections.get("experience", "").lower()
+        exp_text = self.sections.get("experience", "")
 
-        if "resume worded" in exp_text:
-            companies.append("Resume Worded")
-            designations.append("Credit Analyst")
+        # Find company followed by a year
+        company_match = re.search(
+            r'([A-Za-z &]+)\s+(20\d{2})',
+            exp_text
+        )
 
-        if "growthsi" in exp_text:
-            companies.append("Growthsi")
-            designations.append("Investment Banker")
+        if company_match:
+            companies.append(company_match.group(1).strip())
+
+        # Find designation
+        role_match = re.search(
+            r'(credit analyst|data analyst|software engineer|python developer)',
+            exp_text.lower()
+        )
+
+        if role_match:
+            designations.append(role_match.group(1).title())
 
         return companies, designations
+
+   # print(parser.sections["experience"])
 
     def extract_experience_years(self):
         match = re.search(r"\d+\s+years", self.text)

@@ -1,53 +1,359 @@
 [
     {
-        "name": "Michael Smith (credit_analyst_sample2.pdf_final.json)",
-        "score": 64.77,
-        "status": "Review",
+        "name": "John Doe (credit_analyst1_sambele_1b.pdf_final.json)",
+        "score": 40.61,
+        "status": "Rejected",
         "breakdown": {
-            "skills": 0.5,
-            "experience": 0.7,
+            "skills": 0.38461538461538464,
+            "experience": 0.0,
             "education": 0.7,
-            "semantic": 0.8385787606239319
+            "semantic": 0.9112134575843811
         },
         "explanation": {
-            "Skill Match": "50.0%",
-            "Experience Relevance": "70.0%",
+            "Skill Match": "38.5%",
+            "Experience Relevance": "0.0%",
             "Education Alignment": "70.0%",
-            "Semantic Similarity": "83.9%"
+            "Semantic Similarity": "91.1%"
+        }
+    },
+    {
+        "name": "Michael Smith (credit_analyst_sample2.pdf_final.json)",
+        "score": 34.26,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.23076923076923078,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.9016454815864563
+        },
+        "explanation": {
+            "Skill Match": "23.1%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "90.2%"
         }
     },
     {
         "name": "John Doe (credit_analyst_sample1.pdf_final.json)",
-        "score": 51.12,
-        "status": "Review",
+        "score": 31.07,
+        "status": "Rejected",
         "breakdown": {
-            "skills": 0.16666666666666666,
-            "experience": 0.7,
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
             "education": 0.7,
-            "semantic": 0.8227509260177612
+            "semantic": 0.8957713842391968
         },
         "explanation": {
-            "Skill Match": "16.7%",
-            "Experience Relevance": "70.0%",
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
             "Education Alignment": "70.0%",
-            "Semantic Similarity": "82.3%"
+            "Semantic Similarity": "89.6%"
         }
     },
     {
-        "name": "John Doe (credit_analyst1_sambele_1b.pdf_final.json)",
-        "score": 44.35,
+        "name": "John Doe (credit_analyst_sample4.pdf_final.json)",
+        "score": 31.07,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8957713842391968
+        },
+        "explanation": {
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "89.6%"
+        }
+    },
+    {
+        "name": "Kiran Joseph (credit_analyst_sample12.pdf_final.json)",
+        "score": 31.02,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8932441473007202
+        },
+        "explanation": {
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "89.3%"
+        }
+    },
+    {
+        "name": "Vikram Patel (credit_analyst_sample9.pdf_final.json)",
+        "score": 31.02,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8933179378509521
+        },
+        "explanation": {
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "89.3%"
+        }
+    },
+    {
+        "name": "Aarav Sharma (credit_analyst_sample5.pdf_final.json)",
+        "score": 31.01,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8929663896560669
+        },
+        "explanation": {
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "89.3%"
+        }
+    },
+    {
+        "name": "Sneha Iyer (credit_analyst_sample8.pdf_final.json)",
+        "score": 31.01,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8928464651107788
+        },
+        "explanation": {
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "89.3%"
+        }
+    },
+    {
+        "name": "Arjun Menon (credit_analyst_sample11.pdf_final.json)",
+        "score": 31.0,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8921018838882446
+        },
+        "explanation": {
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "89.2%"
+        }
+    },
+    {
+        "name": "Neha Gupta (credit_analyst_sample10.pdf_final.json)",
+        "score": 30.99,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8918871283531189
+        },
+        "explanation": {
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "89.2%"
+        }
+    },
+    {
+        "name": "Rahul Verma (credit_analyst_sample7.pdf_final.json)",
+        "score": 30.99,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.15384615384615385,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8920157551765442
+        },
+        "explanation": {
+            "Skill Match": "15.4%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "89.2%"
+        }
+    },
+    {
+        "name": "Vikram Singh (credit_analyst_sample18.pdf_final.json)",
+        "score": 24.65,
         "status": "Rejected",
         "breakdown": {
             "skills": 0.0,
-            "experience": 0.7,
+            "experience": 0.0,
             "education": 0.7,
-            "semantic": 0.8172788619995117
+            "semantic": 0.8824735879898071
         },
         "explanation": {
             "Skill Match": "0.0%",
-            "Experience Relevance": "70.0%",
+            "Experience Relevance": "0.0%",
             "Education Alignment": "70.0%",
-            "Semantic Similarity": "81.7%"
+            "Semantic Similarity": "88.2%"
+        }
+    },
+    {
+        "name": "Karan Patel (credit_analyst_sample22.pdf_final.json)",
+        "score": 24.64,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8819889426231384
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.2%"
+        }
+    },
+    {
+        "name": "Meera Joseph (credit_analyst_sample23.pdf_final.json)",
+        "score": 24.63,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8814242482185364
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.1%"
+        }
+    },
+    {
+        "name": "Aarav Sharma (credit_analyst_sample14 (1).pdf_final.json)",
+        "score": 24.62,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8809077143669128
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.1%"
+        }
+    },
+    {
+        "name": "Neha Kapoor (credit_analyst_sample17.pdf_final.json)",
+        "score": 24.62,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8812392950057983
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.1%"
+        }
+    },
+    {
+        "name": "Sneha Iyer (credit_analyst_sample21.pdf_final.json)",
+        "score": 24.62,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8808413147926331
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.1%"
+        }
+    },
+    {
+        "name": "Ananya Das (credit_analyst_sample19.pdf_final.json)",
+        "score": 24.61,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8803049921989441
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.0%"
+        }
+    },
+    {
+        "name": "Rohan Gupta (credit_analyst_sample20.pdf_final.json)",
+        "score": 24.61,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8803749680519104
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.0%"
+        }
+    },
+    {
+        "name": "Priya Nair (credit_analyst_sample15.pdf_final.json)",
+        "score": 24.6,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8801935315132141
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.0%"
+        }
+    },
+    {
+        "name": "Rahul Menon (credit_analyst_sample16.pdf_final.json)",
+        "score": 24.6,
+        "status": "Rejected",
+        "breakdown": {
+            "skills": 0.0,
+            "experience": 0.0,
+            "education": 0.7,
+            "semantic": 0.8800203800201416
+        },
+        "explanation": {
+            "Skill Match": "0.0%",
+            "Experience Relevance": "0.0%",
+            "Education Alignment": "70.0%",
+            "Semantic Similarity": "88.0%"
         }
     }
 ]

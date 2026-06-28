@@ -48,7 +48,7 @@ def main():
     with open("outputs/education_output.json", "w") as f:
         json.dump(all_outputs, f, indent=4)
 
-    print("✅ Output saved to outputs/education_output.json")
+    print("Output saved to outputs/education_output.json")
 
 
 if __name__ == "__main__":

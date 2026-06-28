@@ -1,0 +1,11 @@
+{
+  "Credit Analyst": {
+    "min_score": 65,
+    "mandatory_skills": [
+      "excel",
+      "financial analysis",
+      "risk assessment"
+    ],
+    "min_experience": 2
+  }
+}

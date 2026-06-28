@@ -1,13 +1,28 @@
 import re
 
 def clean_text(text):
-    # remove extra spaces BUT keep line breaks
-    text = re.sub(r'[ \t]+', ' ', text)
+    try:
+        # Convert to lowercase
+        text = text.lower()
 
-    # remove unwanted characters (optional)
-    text = re.sub(r'[^a-zA-Z0-9\n.,\- ]', '', text)
+        # Keep line breaks, normalize spaces within lines
+        lines = text.splitlines()
+        cleaned_lines = []
 
-    # normalize multiple line breaks
-    text = re.sub(r'\n+', '\n', text)
+        for line in lines:
+            line = line.strip()
 
-    return text.strip()
+            # Replace multiple spaces/tabs with a single space
+            line = re.sub(r'[ \t]+', ' ', line)
+
+            # Remove unwanted special characters but keep useful punctuation
+            line = re.sub(r'[^a-z0-9.,()\-\/ ]', '', line)
+
+            cleaned_lines.append(line)
+
+        # Rejoin while preserving line structure
+        return "\n".join(cleaned_lines).strip()
+
+    except Exception as e:
+        print(f"[Text Cleaning Error]: {e}")
+        return text

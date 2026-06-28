@@ -1,0 +1,24 @@
+class InterviewState:
+
+    def __init__(self):
+        self.history = []
+        self.asked_questions = set()
+
+    def add_interaction(
+        self,
+        question,
+        answer
+    ):
+
+        self.history.append({
+            "question": question,
+            "answer": answer
+        })
+
+        self.asked_questions.add(question)
+
+    def is_repeated(
+        self,
+        question
+    ):
+        return question in self.asked_questions

@@ -1,0 +1,13 @@
+{
+    "file": "credit_analyst_sample15.pdf",
+    "skills": [
+        "ratio analysis"
+    ],
+    "categories": {
+        "finance": [
+            "ratio analysis"
+        ]
+    },
+    "experience": 5,
+    "score": 40.0
+}
