@@ -93,3 +93,51 @@ def calculate_technical_score(
             "real_world": round(real_world, 2)
         }
     }
+
+#----------new last added line or code#####
+
+
+
+# ADD THIS to the SAME FILE that already has:
+#   detect_depth, logical_score, real_world_score, accuracy_score, calculate_technical_score
+#
+# Your calculate_technical_score() only scores ONE answer. This adds a
+# pipeline that scores a whole list of answers and produces one aggregate
+# technical_score + decision, the same way hr_scoring_pipeline() does for HR.
+
+def technical_scoring_pipeline(answers):
+    """
+    answers: list of dicts like:
+        {"answer_text": "...", "is_correct": True}
+    """
+
+    scored = []
+
+    for idx, ans in enumerate(answers, start=1):
+        text = ans.get("answer_text", "")
+        is_correct = ans.get("is_correct", True)
+
+        result = calculate_technical_score(text, is_correct)
+        result["question_no"] = idx
+        scored.append(result)
+
+    if not scored:
+        return {
+            "technical_score": 0,
+            "decision": "Reject",
+            "details": []
+        }
+
+    avg = sum(item["technical_score"] for item in scored) / len(scored)
+
+    decision = (
+        "Strong Hire" if avg >= 75
+        else "Consider" if avg >= 55
+        else "Reject"
+    )
+
+    return {
+        "technical_score": round(avg, 2),
+        "decision": decision,
+        "details": scored
+    }

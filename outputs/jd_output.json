@@ -1,19 +1,19 @@
 {
     "role": "credit analyst",
     "skills": [
+        "dscr",
+        "cash flow",
         "reporting",
         "excel",
-        "ratio analysis",
-        "cash flow",
-        "debt service coverage ratio",
         "risk assessment",
-        "analytical thinking",
         "collateral",
-        "dscr",
         "interest coverage",
-        "debt equity",
+        "ratio analysis",
         "credit appraisal",
-        "financial statement analysis"
+        "debt equity",
+        "debt service coverage ratio",
+        "financial statement analysis",
+        "analytical thinking"
     ],
     "experience_year": "25 years",
     "education": "mba finance",
