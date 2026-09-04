@@ -34,7 +34,7 @@ requirements.txt   - Dependencies
 
 4. Install dependencies:
    pip install -r requirements.txt
-   
+
 
 ## Key Features
 
@@ -71,6 +71,53 @@ Candidate Scoring
    ↓
 Final Decision Support
 ```
+
+## Architecture
+                    ┌─────────────────────┐
+                    │      User / HR      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │     FastAPI API     │
+                    └──────────┬──────────┘
+                               │
+                ┌──────────────┴──────────────┐
+                ▼                             ▼
+       ┌────────────────┐            ┌────────────────┐
+       │ Resume Upload  │            │ Job / Criteria │
+       └───────┬────────┘            └───────┬────────┘
+               │                             │
+               ▼                             ▼
+       ┌────────────────────────────────────────────┐
+       │             NLP Processing                 │
+       │              Python + spaCy                │
+       └────────────────────┬───────────────────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │   ATS Evaluation     │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Candidate Screening  │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Interview Evaluation │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Scoring & Decision   │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Structured Result    │
+                 └──────────────────────┘
 
 ## Technology Stack
 
