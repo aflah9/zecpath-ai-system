@@ -35,6 +35,18 @@ requirements.txt   - Dependencies
 4. Install dependencies:
    pip install -r requirements.txt
 
+5. ### for run the FastAPI backend
+ a. Start FastAPI
+      
+       run: uvicorn server:app --reload
+
+b. open   http://127.0.0.1:8000/doc
+
+c. upload resume and job describtion in process resume
+
+d.then we get the score if he eligible move to hr-interview after that move to technical-interviewafter eligible chek move to machine-test after we get the final score.
+
+
 
 ## Key Features
 
